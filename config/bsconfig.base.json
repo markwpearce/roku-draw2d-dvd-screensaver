@@ -1,0 +1,20 @@
+{
+    "diagnosticLevel": "error",
+    "retainStagingFolder": true,
+    "rootDir": "../src/",
+    "plugins": [
+        "@rokucommunity/bslint"
+    ],
+    "files": [
+        "source/**/*",
+        "components/**/*",
+        "images/**/*",
+        "sounds/**/*",
+        "fonts/**/*",
+        "manifest"
+    ],
+    "stagingFolderPath": "dist/build",
+    "createPackage": true,
+    "sourceMap": true,
+    "lintConfig": "config/bslint.jsonc"
+}

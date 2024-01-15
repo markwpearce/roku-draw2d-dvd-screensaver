@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "brighterscript": "^0.65.0",
+    "@rokucommunity/bslint": "^0.8.10"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "bsc",
+    "build:prod": "npm run build -- --sourceMap=false",
+    "lint": "bslint --project config/bsconfig.lint.json --lintConfig config/bslint.jsonc",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
