@@ -6,11 +6,19 @@ This is an example project to mimic the the classic DVD player screensaver.
 
 ![The Office](./docs/the-office.gif)
 
-## Roku Screensaver
+## Roku Screensavers
 
-A Roku screensaver has to meet a number of specialized requirements. Please read this documentation about Roku screensavers:
+Roku screensavers need to meet a number of specialized requirements. Please read this documentation about Roku screensavers:
 
 https://developer.roku.com/en-ca/docs/developer-program/media-playback/screensavers.md
+
+## This Screensaver
+
+![DVD-like](./docs/roku-dvd.gif)
+
+This screensaver simply bounces an image around on the screen, that changes color when the image bounces.
+
+If you are editing the code, you can change the image, the speed and if the image changes color.
 
 ## Before you start
 
